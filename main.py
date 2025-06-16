@@ -26,7 +26,7 @@ key = st.secrets["key"]
 df = load_data('data/data.csv', key)
 
 if df is not None:
-    st.title('Búsqueda Inscritos')
+    st.title('Búsqueda Inscritos Carrera CALOTO RUN 2025')
     
     search_option = st.radio('Seleccione el método de búsqueda', ('Cédula', 'Teléfono'))
     
