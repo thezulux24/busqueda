@@ -4,7 +4,7 @@ import pandas as pd
 from io import StringIO
 
 
-st.set_page_config(page_title="Búsqueda Inscritos Carrera", layout="centered")
+st.set_page_config(page_title="Búsqueda Inscritos Carrera CALOTO RUN 2025", layout="centered")
 
 @st.cache_data  
 def load_data(file_name, key):
